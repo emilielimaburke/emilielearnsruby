@@ -8,7 +8,7 @@ def bank_balance(amount)
   elsif amount < 1500
     puts "You should transfer money soon"
   elsif amount <= 2600
-    puts "You're doing okay" 
+    puts "You're doing okay"
   else
     puts "You're in great shape!"
   end
@@ -33,12 +33,8 @@ class Fellow
     print "#{first_name} works at #{company}"
     if !primary_phone_number.nil?
       puts " and can be reached at #{primary_phone_number}."
-    else 
+    else
       puts "."
     end
   end
 end
-
-
-
-
